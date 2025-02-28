@@ -34,6 +34,7 @@ a {
 .section {
     background-color: aliceblue;
     min-height: 60vh;
+    padding: 20px 0;
 }
 
 .section.landing {
@@ -97,15 +98,14 @@ a {
     flex: 1;
     align-items: center;
     justify-content: start;
-    gap: 30px;
+    gap: 50px;
     margin: 0 15%;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 .section.information .info-sec .heading {
     font-size: 36px;
     font-weight: 900;
     flex-shrink: 0;
-    margin-top: 30px;
     text-align: center;
 }
 .section.information .info-sec .info-container {
@@ -132,4 +132,26 @@ a {
 .section.information .info-sec .info-container .info-object .subtext {
     text-align: center;
     color: #52555a;
+}
+
+.section.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+}
+.section.quote .quotey {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto 20%;
+}
+.section.quote .quotey .text-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.section.quote .quotey .text-from {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 900;
 }
